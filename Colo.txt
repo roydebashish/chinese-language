@@ -1,0 +1,4 @@
+logo: 
+body font: #ffffff
+body bg: #363636
+heading: #ff0000

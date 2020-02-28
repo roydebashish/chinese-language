@@ -1,8 +1,9 @@
 .section-title h2 {
-  font-size: 42px;
-  color: #257970;
-  margin-bottom: 20px; 
+  color: #ff0000;
+  background-color: #363636;
 }
+.section-title.title-left h2{margin-left: -15px;}
+.section-title.title-right h2{margin-right: -15px;}
 .section-title h3 {
   font-size: 22px;
   color: #257970;
@@ -369,8 +370,10 @@ h6, .h6 {
 .pb-120 {padding-bottom: 120px; }
 .pb-150 {padding-bottom: 150px; }
 .pr-30 {padding-right: 30px; }
+.pr-40 {padding-right: 40px; }
 .pr-90 {padding-right: 90px; }
 .pl-30 {padding-left: 30px; }
+.pl-40 {padding-left: 40px; }
 .pl-90 {padding-left: 90px; }
 .p-40 {padding: 40px; }
 

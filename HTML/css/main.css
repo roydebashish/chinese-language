@@ -1,7 +1,14 @@
-.section-title h2 {
-  color: #ff0000;
-  background-color: #363636;
+@font-face {
+  font-family: 'Pristina-Regular';
+  src: url('../fonts/Pristina-Regular/Pristina-Regular.eot?#iefix') format('embedded-opentype'),  
+  url('../fonts/Pristina-Regular/Pristina-Regular.woff') format('woff'), 
+  url('../fonts/Pristina-Regular/Pristina-Regular.ttf')  format('truetype'), 
+  url('../fonts/Pristina-Regular/Pristina-Regular.svg#Pristina-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
+
+.section-title h2 {color: #ff0000;}
 .section-title.title-left h2{margin-left: -15px;}
 .section-title.title-right h2{margin-right: -15px;}
 .section-title h3 {
@@ -419,7 +426,10 @@ h1, h2, h3, h4, h5, h6 {line-height: 1.2em; }
 }
 /* debashish */
 .bg-red{background-color: #ff0000}
-
+.bg-dark{ background-color: #363636;}
+.font-red{color: #ff0000 !important}
+.font-dark{color: #363636 !important}
+.title-right{margin-right: -15px;}
 .contact-icon{
   max-width: 60px;
   display: block;
@@ -460,3 +470,24 @@ h1, h2, h3, h4, h5, h6 {line-height: 1.2em; }
 }
 .search button, .search .form-control{background-color: transparent;}
 .search button{border: 1px solid #a7a8ac}
+/* why us */
+.banner  .why-us{padding-top: 100px;}
+.slogan p{
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+.slogan .txt-big{font-size: 1.5rem;}
+.tagline-bottom{
+  font-family: 'Pristina-Regular';
+  font-size: 2rem;
+  color: #363636
+}
+/* CLP  */
+.clp-img{
+  position: absolute;
+  left: 9px;
+  right: 0;
+  bottom: 0;
+  width: 96%;
+  height: 100%;
+}

@@ -156,6 +156,7 @@
         max-width: 260px;
         width: 100%;
     }
+    .partner img{max-width: 261px}
 }
 
 @media (max-width: 768px) {

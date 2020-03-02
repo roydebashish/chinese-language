@@ -62,14 +62,14 @@
 
 .navbar-nav li a {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 10px;
   color: #ffffff;
   padding: 10px;
   transition: all .5s;
   position: relative;
 }
 .navbar-nav li a:after, .navbar-nav li a:before { transition: all .5s; }
-.navbar-nav li a:hover {color: #257970; }
+.navbar-nav li a:hover {color: #ff0000; }
 nav.fill li a {position: relative; }
 .navbar-nav li a:hover:after {width: 100%; }
 .navbar-nav .dropdown .dropdown-item {
@@ -81,7 +81,8 @@ nav.fill li a {position: relative; }
   border: 0;
   cursor: pointer;
   padding: 3px 5px;
-  color: #257970; }
+  color: #257970; 
+}
 .navbar-nav .search:focus {outline: none; }
 .header-scrolled {
   position: fixed;
@@ -449,17 +450,25 @@ h1, h2, h3, h4, h5, h6 {line-height: 1.2em; }
 }
 .contact button:hover{background-color: #0063a5 !important}
 .contact ::placeholder{
-  color:#ff0000;
+  color:#a2494b;
   font-weight: normal;
 }
 .contact .form-control{
   font-size: 14px;
   border-radius: 0;
-  background-color: #36363673;
+  background-color: #842a2abf;
   border: none;
+  color: #ffffff;
+  font-weight: 300;
+}
+.contact .form-control:focus{
+  outline: none;
+  box-shadow: none;
+  background-color: #6b2524d6;
 }
 
 .current-menu{color:#ff0000 !important}
+.navbar-nav li:last-child a{padding-right: 0;}
 .search button[type=submit] i{color: #ed2124}
 .search input::placeholder{color: #a7a8ac; font-weight: lighter;}
 .search input{
@@ -471,6 +480,7 @@ h1, h2, h3, h4, h5, h6 {line-height: 1.2em; }
 }
 .search button, .search .form-control{background-color: transparent;}
 .search button{border: 1px solid #a7a8ac}
+.search{display: none;}
 /* why us */
 .banner  .why-us{padding-top: 100px;}
 .slogan p{

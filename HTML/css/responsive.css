@@ -22,7 +22,7 @@
     }
 
     .section-title {
-        padding-bottom: 40px;
+        padding-bottom: 20px;
     }
 
     .navbar .dropdown .dropdown-menu .dropdown-menu {
@@ -81,7 +81,8 @@
     .navbar-nav .dropdown .dropdown-item {
         color: #fff;
     }
-
+    .section-title.title-left h2{margin-left:0}
+    .section-title h3{margin-bottom: 0;}
 }
 
 @media (max-width: 768px) {
@@ -188,16 +189,13 @@
 }
 
 @media (max-width: 991px) {
-    .footer-area {
-        background: #000000;
-        height: auto;
-    }
-}
-
-@media (max-width: 991px) {
     .footer-area .single-footer-widget {
         margin-bottom: 30px;
     }
+    .pl-90{padding-left: 0;}
+    .pr-90{padding-right: 0;}
+    .banner .why-us{padding-top: 70px;}
+
 }
 
 @media (min-width: 200px) {
@@ -210,6 +208,7 @@
     .footer-area .single-footer-widget h4 {
         font-size: 18px;
     }
+    .navbar-nav li a{font-size: 7px;}
 }
 
 @media (max-width: 991px) {

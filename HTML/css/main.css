@@ -150,7 +150,6 @@ nav.fill li a {position: relative; }
 }
 .footer-area .footer-bottom .footer-social {text-align: center; }
 .footer-area .footer-bottom .footer-social a {
-    background: #363a4b;
     margin-left: 5px;
     width: 40px;
     color: #fff;
@@ -419,12 +418,13 @@ h1, h2, h3, h4, h5, h6 {line-height: 1.2em; }
   border-top: 1px dotted #eee; 
 }
 .footer-area .single-footer-widget .click-btn, .footer-area .footer-bottom .footer-social a:hover {
-  background: -webkit-linear-gradient(45deg, #257970 0%, #1d8177 100%);
-  background: -moz-linear-gradient(45deg, #257970 0%, #1d8177 100%);
-  background: -o-linear-gradient(45deg, #257970 0%, #1d8177 100%);
-  background: -ms-linear-gradient(45deg, #257970 0%, #1d8177 100%);
-  background: linear-gradient(45deg, #257970 0%, #1d8177 100%); 
+  background: -webkit-linear-gradient(45deg, #363636 0%, #ff0000 100%);
+  background: -moz-linear-gradient(45deg, #363636 0%, #ff0000 100%);
+  background: -o-linear-gradient(45deg, #363636 0%, #ff0000 100%);
+  background: -ms-linear-gradient(45deg, #363636 0%, #ff0000 100%);
+  background: linear-gradient(45deg, #363636 0%, #ff0000 100%); 
 }
+.footer-area .footer-bottom .footer-social a:hover{border-radius: 50%;}
 /* debashish */
 .bg-red{background-color: #ff0000}
 .bg-dark{ background-color: #363636;}
@@ -502,3 +502,16 @@ h1, h2, h3, h4, h5, h6 {line-height: 1.2em; }
   width: 96%;
   height: 100%;
 }
+/* icons */
+.icon{
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.twitter{background-image: url('../images/icon/twitter.png')}
+.facebook{background-image: url('../images/icon/facebook.png')}
+.instagram{background-image: url('../images/icon/instagram.png')}
+.whatsapp{background-image: url('../images/icon/whatsapp.png')}
+.youtube{background-image: url('../images/icon/youtube.png')}

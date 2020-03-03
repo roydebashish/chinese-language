@@ -158,6 +158,7 @@
         width: 100%;
     }
     .partner img{max-width: 261px}
+    .brk-word{display: block;}
 }
 
 @media (max-width: 768px) {
@@ -186,6 +187,11 @@
         width: 150px;
         display: inline-block;
     }
+    .hide-on-small{display:none}
+    .partner{text-align: center;}
+    .gallery div{text-align: center;}
+    .profile div{text-align: center;}
+    .title{padding-top: 10px; text-align: center;}
 }
 
 @media (max-width: 991px) {
@@ -220,8 +226,5 @@
 @media (max-width: 991px) {
     .footer-area .footer-bottom .footer-social {
         text-align: left;
-    }
-    .footer-social a {
-        margin-bottom: 30px;
     }
 }
